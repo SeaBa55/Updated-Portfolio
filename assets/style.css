@@ -1,0 +1,84 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+
+  /* Height at which footer collapses; 40px + 8px space between card and footer*/
+  margin-bottom: 48px;
+}
+ 
+
+.line {
+  border-top: 1px solid;
+}
+
+
+.row-1{
+  margin-top: 12px;
+}
+
+
+.Project{
+  width: 130px; 
+  height: 110px;
+  
+  /* Center Image*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.cardHeight{
+  height: 200px;
+}
+
+
+.form-group{
+  padding-top: 20px;
+}
+
+
+.form-group-2{
+  padding-bottom: 20px;
+}
+
+
+/* Center Image max width when below md sizes*/
+.TextWrap{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 50px;
+  padding-right: 15px;
+}
+
+
+/* Sticky footer properties */
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  /* Set the fixed height of the footer here */
+  height: 40px;
+
+  /* Vertically center the text there */
+  line-height: 40px; 
+
+  /* Text color not active since it is muted */
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}

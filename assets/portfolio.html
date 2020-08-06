@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<!-- index.html set to US style of english -->
+<html lang="en-us">
+
+  <head>
+
+    <!-- UTF-8 character encoding selected for idex.HTML -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- page title -->
+    <title>Portfolio</title>
+
+    <!-- bootstrap CSS --> 
+    <link 
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+      crossorigin="anonymous"
+    />
+
+    <!-- alt styles CSS -->
+    <link 
+      rel="stylesheet" 
+      type="text/css" 
+      href="style.css"
+    />
+
+  </head>
+
+  <body>
+    
+    <!-- NavBar (modified - copied and pasted from https://getbootstrap.com/docs/4.5/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <!-- Nav Bar Brand/Logo (Added back in) -->
+      <a class="navbar-brand" href="#">Sebastian Arrazola</a>
+
+      <!-- Nav Menu Button -->
+      <button 
+
+        class="navbar-toggler"
+        data-toggle="collapse" 
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+  
+      <!-- Nav Menu Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">About<span class="sr-only">(current)</span></a>
+          </li>
+          
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <main role="main">
+
+      <!--Card taking up 12 Columns -->
+      <div class="container my-container">
+        <div class="col-md-12">
+          <div class="card mt-2">
+            <div class="card-body">
+
+              <h5 class="card-title">Portfolio</h5>
+
+              <!-- line divider between heading and image -->
+              <div class="line"><div>
+
+              <!-- Card Container -------------------------->
+              
+              <!-- Card Row 1 ------------------------------>
+              <div class="row row-1">
+
+                <div class="col-md-4">
+                  <div class="card mt-2 cardHeight">
+                    <div class="card-body">
+                      <h6 class="card-title">Mechatronics</h6>
+
+                      <img class="Project" src="images/mechatronics.jpg" alt="Picture of Oil Pan Projct">
+
+                    </div>
+                  </div>
+                </div>  
+
+                <div class="col-md-4">
+                  <div class="card mt-2 cardHeight">
+                    <div class="card-body">
+                      <h6 class="card-title">Edison Learns Electricity</h6>
+
+                      <img class="Project" src="images/Edison.JPG" alt="Edison reading through the electronics manual">
+
+                    </div>
+                  </div>
+                </div>  
+
+                <div class="col-md-4">
+                  <div class="card mt-2 cardHeight">
+                    <div class="card-body">
+                      <h6 class="card-title">Mpambara-Cox</h6>
+
+                      <img class="Project" src="images/mpambara-cox.jpeg" alt="Picture of me">
+
+                    </div>
+                  </div>
+                </div>  
+
+              </div>
+              <!-- end: Card Row 1 ------------------------->
+
+              <!-- Card Row 2 ------------------------------>
+              <div class="row">
+
+                <div class="col-md-4">
+                  <div class="card mt-2 cardHeight">
+                    <div class="card-body">
+                      <h6 class="card-title">Terps Racing</h6>
+
+                      <img class="Project" src="images/Terps_Racing.jpg" alt="Picture of me">
+
+                    </div>
+                  </div>
+                </div>  
+
+                <div class="col-md-4">
+                  <div class="card mt-2 cardHeight">
+                    <div class="card-body">
+                      <h6 class="card-title">Billet Aluminum Oil Pan</h6>
+
+                      <img class="Project" src="images/CNC_Oil_Pan.PNG" alt="Picture of Oil Pan Projct">
+
+                    </div>
+                  </div>
+                </div>  
+
+                <div class="col-md-4">
+                  <div class="card mt-2 cardHeight">
+                    <div class="card-body">
+                      <h6 class="card-title ">Drone Build Project</h6>
+
+                      <img class="Project" src="images/Hand_made_Drone.PNG" alt="Home made drone">
+
+                    </div>
+                  </div>
+                </div>  
+
+              </div>
+              <!-- end: Card Row 2 -------------------------->
+
+              <!-- Card Container --------------------------->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Sticky Footer (modified - copied and pasted from https://getbootstrap.com/docs/4.5/examples/sticky-footer-navbar/ -->
+    <footer class="footer mt-auto bg-dark">
+      <div class="container">   
+        <span class="my-foot-text">© 2020 v3.3 - updated: 6/21 by S. Arrazola</span>
+      </div>
+    </footer>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
