@@ -19,6 +19,17 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    
+    <!-- Fontawesome CSS -->
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+    />
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
 
     <!-- alt styles CSS -->
     <link
@@ -35,7 +46,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
 
       <!-- Nav Bar Brand/Logo (Added back in) -->
-      <a class="navbar-brand" href="#">Sebastian Arrazola</a>
+      <a class="navbar-brand bangers-font" href="#">Sebastian Arrazola</a>
 
       <!-- Nav Menu Button -->
       <button
@@ -57,15 +68,15 @@
         <ul class="navbar-nav ml-auto">
 
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+            <a class="nav-link bangers-font-med" id="active-color" href="index.html">About</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="assets/portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            <a class="nav-link bangers-font-med" href="assets/portfolio.html">Portfolio</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="assets/contact.html">Contact<span class="sr-only">(current)</span></a>
+            <a class="nav-link bangers-font-med" href="assets/contact.html">Contact</a>
           </li>
 
         </ul>
@@ -81,7 +92,7 @@
         
         <div class="col-md-12">
       
-          <div class="card mt-2">
+          <div class="card mt-4">
 
             <div class="card-body">
 
@@ -93,11 +104,11 @@
               <!-- Float left on viewports sized MD (medium) or wider -->
               <div class="float-md-left">
                 
-                <img class="TextWrap" src="assets/images/SeaBa55_Headshot.PNG" alt="Picture of Sebastian Arrazola">
+                <img class="TextWrap rounded-circle z-depth-2" src="assets/images/SeaBa55_Headshot.PNG" alt="Picture of Sebastian Arrazola" data-holder-rendered="true">
             
               </div><br>  
 
-              <p class="card-text"></p>
+              <p class="card-text">
                 <p>Originally from Bogota, Colombia, my family and I emigrated to the states in search of peace away from the narco-state that had become our home at the time. The year was 1997, and we were off to the land of opportunity where we found a pleasant place to call home in Montgomery County, Maryland.</p>
                 <p>Over the next 20 years I spent living in Montgomery County, I grew passionate for music production, engineering and mechanical design, as these fields were a vessel for my creativity to flourish. Due to my developing interest in design and engineering I decided to study mechanical engineering at the University of Maryland. It was in this institution where I was exposed to mechatronics which is where mechanical, electrical, and software/computer engineering overlap.</p>
                 <p>During my time in college, and after graduation I worked on various mechatronics, and product design projects such as active aero, design and CNC manufacturing of an ultra slim billet aluminum oil pan for the formula SAE race team I took part in. For my final mechatronics’ class project I designed and built a desk top Peltier HVAC system using a standalone atmega328p microcontroller that I programmed to interface with a user through a control knob and display for dialing-in a desired temperature set point. This project further spun off as an English class project in which I created educational material that aimed to walk students through the fundamentals of electronics  before having to follow a step-by-step manual on how to construct the Peltier HVAC system. The educational material/ build manual was distributed through a collaboration with the mpambara-cox foundation to high school students in Uganda that expressed interested in stem!</p>
@@ -117,8 +128,12 @@
 
     <!-- Sticky Footer (modified - copied and pasted from https://getbootstrap.com/docs/4.5/examples/sticky-footer-navbar/ -->
     <footer class="footer mt-auto bg-dark">
-      <div class="container">   
-        <span class="my-foot-text">© 2020 v3.3 - updated: 6/21 by S. Arrazola</span>
+      <div class="container d-flex justify-content-between align-items-center">
+        <i class="fas fa-file-pdf fa-2x"></i>
+        <i class="fab fa-github fa-2x"></i>
+        <span class="my-foot-text bangers-font-small">© 2020 v 3.4 - updated: 08/05</span>
+        <i class="fab fa-linkedin fa-2x"></i>
+        <i class="far fa-envelope fa-2x"></i>
       </div>
     </footer>
 
