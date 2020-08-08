@@ -94,6 +94,13 @@ body {
   margin-right: 15px;
 }
 
+.foot-link {
+  color: inherit;
+}
+
+.foot-link:hover {
+  color: #F1FA8C;
+}
 
 /* Sticky footer properties */
 .footer {

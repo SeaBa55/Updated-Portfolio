@@ -155,7 +155,9 @@ portfolio_sa_v3.2 - Added personal text to the about me section (occured prev co
 
 portfolio_sa_v3.3 - Added class "cardHeight" to to all cards in the portfolio page for card height control (portfolio.html lines 95, 106, 117, 134, 145, 156); Made all the classes associates with the images in the cards the same to define a uniform height, and removed height/ width properties (properties.html lines 138, 149, 160); Added class selector "cardHeight" and set height to 200px (style.css lines 41-43); Added class selector "Project" and set height/ width properties as well as image centering properties (style.css lines 31-39).
 
-portfolio_sa_v3.4 - Changed portfolio theme by adding SVG Hero background (style.css line 22); Changed background and nav bar link text color to match vs code dracula theme (style.css lines 19, 48); Changed nav bar and body text font using Bangers and Saira google fonts (index.html portfolio.html & contact.html lines 32, 49, 71, 75, 79); Added font awesome icons to footer for PDF resume, Git Hub Profile, Linkedin Profile, and email contact (index.html lines 24-29, 131-136)(portfolio.html lines 24-29, 191-196)(contact.html lines 24-29, 158-163). 
+portfolio_sa_v3.4 - Changed portfolio theme by adding SVG Hero background (style.css line 22); Changed background and nav bar link text color to match vs code dracula theme (style.css lines 19, 48); Changed nav bar and body text font using Bangers and Saira google fonts (index.html portfolio.html & contact.html lines 32, 49, 71, 75, 79); Added font awesome icons to footer for PDF resume, Git Hub Profile, Linkedin Profile, and email contact (index.html lines 24-29, 131-136)(portfolio.html lines 24-29, 191-196)(contact.html lines 24-29, 158-163).
+
+portfolio_sa_v3.5 - Added links to the github and linkedin icons, so that when clicked the user will be redirected to my respective profiles (index.html lines 133, 135)(portfolio.html lines 193, 195)(contact.html lines 160, 162)(style.css lines 97-103).
 
 ## Wish List
 
