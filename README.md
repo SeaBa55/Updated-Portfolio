@@ -159,9 +159,10 @@ portfolio_sa_v3.4 - Changed portfolio theme by adding SVG Hero background (style
 
 portfolio_sa_v3.5 - Added links to the github and linkedin icons, so that when clicked the user will be redirected to my respective profiles (index.html lines 133, 135)(portfolio.html lines 193, 195)(contact.html lines 160, 162)(style.css lines 97-103).
 
+portfolio_sa_v3.6 - Added pop-over that displays email address upon email icon button click (index.html lines 170, 188-192)(portfolio.html lines 230, 248-252)(contact.html lines 197, 215-219); Added modal to display resume image and provide option to download pdf resume (index.html lines 128-152, 160-162)(portfolio.html lines 188-212, 220-222)(contact.html lines 155-170, 187-189).
+
 ## Wish List
 
-Add modal images to the portfolio so the user doesnt have to zoom into the browser to get a closer look.
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

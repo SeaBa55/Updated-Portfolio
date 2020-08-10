@@ -82,6 +82,9 @@ body {
   padding-bottom: 20px;
 }
 
+.resume{
+  width: 100%;
+}
 
 /* Center Image max width when below md sizes*/
 .TextWrap{
