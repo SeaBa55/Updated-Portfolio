@@ -161,6 +161,8 @@ portfolio_sa_v3.5 - Added links to the github and linkedin icons, so that when c
 
 portfolio_sa_v3.6 - Added pop-over that displays email address upon email icon button click (index.html lines 170, 188-192)(portfolio.html lines 230, 248-252)(contact.html lines 197, 215-219); Added modal to display resume image and provide option to download pdf resume (index.html lines 128-152, 160-162)(portfolio.html lines 188-212, 220-222)(contact.html lines 155-170, 187-189).
 
+portfolio_sa_v3.7 - Added showcase projects to my portfolio section, including the deployed project links as the displayd images, and the github logo as the link to the github repo fir each project (portfolio.htlm lines 93, 94, 104-196); Changed the appearacne of the porfolio project cards, and changed the background color to a gradient from white to lightgrey in the content cards for each page (styles.css lines 57-60, 63-71, 98-106). 
+
 ## Wish List
 
 

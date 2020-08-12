@@ -48,40 +48,37 @@ body {
   color: #F1FA8C;
 }
 
+/* Content cards heading & body line divider */
 .line {
   border-top: 1px solid;
 }
 
-
-.row-1{
-  margin-top: 12px;
+/* Content cards background gradient */
+#grad1 {
+  background-color: lightgrey; /* For browsers that do not support gradients */
+  background-image: linear-gradient(white, lightgrey); /* Standard syntax (must be last) */
 }
 
-
-.Project{
-  width: 130px; 
-  height: 110px;
-  
-  /* Center Image*/
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-  
-.cardHeight{
-  height: 200px;
+/* profolio project cards styling */
+.portfolio-card-body{
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
+/* profolio project cards styling */
+.portfolio-card-title {
+  margin-top: 4px;
+}
 
 .form-group{
   padding-top: 20px;
 }
 
-
 .form-group-2{
   padding-bottom: 20px;
 }
 
+/* Resume image stretch to 100% of the modal content window */
 .resume{
   width: 100%;
 }
@@ -96,6 +93,18 @@ body {
   margin-top: 50px;
   margin-right: 15px;
 }
+
+/* git hub repo link for portfolio cards */
+.portlolio-link {
+  /* VS Code Dracula Theme Background color */
+  color: #2b2d3f;
+}
+
+.portlolio-link:hover {
+  /* VS Code Dracula Theme text color */
+  color: #FF79AA;
+}
+
 
 .foot-link {
   color: inherit;
